@@ -110,10 +110,30 @@
       outline: 2px solid var(--primary-color);
       text-transform: capitalize;
       margin-bottom: 20px;
+
       &:disabled {
         opacity: 0.5;
         cursor: not-allowed;
       }
     }
+
+    .connect-wallet-btn {
+      width: 100%;
+      color: white;
+      padding: 15px 0;
+      font-weight: 500;
+      font-size: 1.1rem;
+      border-radius: 7px;
+      box-shadow: 0 3px 10px 0 rgb(51 51 51 / 35%);
+      background-color: var(--primary-color); // Match the primary color of login button
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+
   }
 }

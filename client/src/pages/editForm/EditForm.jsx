@@ -284,7 +284,7 @@ const EditForm = () => {
           ))}
 
           <div className="info-input">
-            <label>Description (Obtional)</label>
+            <label>Description (Optional)</label>
             <textarea
               name="desc"
               onChange={e => handleChange(e)}
@@ -428,7 +428,7 @@ const EditForm = () => {
           </div>
 
           <div className="info-input">
-            <label>Tags (Obtional)</label>
+            <label>Tags (Optional)</label>
 
             <div className="cards-wrapper">
               {tagsType.map((t, i) => (
